@@ -6,13 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/uyg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="78dp"
+        android:onClick="uyg1Goster"
+        android:text="Uygulama 1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/uyg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:onClick="uyg2Goster"
+        android:text="Uygulama 2"
+        app:layout_constraintStart_toStartOf="@+id/uyg1"
+        app:layout_constraintTop_toBottomOf="@+id/uyg1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
