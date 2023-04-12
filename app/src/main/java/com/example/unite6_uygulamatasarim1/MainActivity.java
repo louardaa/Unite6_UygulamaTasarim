@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.unite6_uygulamatasarim1.Uyg1.Uyg1;
 import com.example.unite6_uygulamatasarim1.Uyg2.Uyg2;
+import com.example.unite6_uygulamatasarim1.Uyg3.Uyg3;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,4 +25,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Uyg2.class);
         startActivity(i);
     }
+    public void uyg3Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg3.class);
+        startActivity(i);
+    }
+
 }
