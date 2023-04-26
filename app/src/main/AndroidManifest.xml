@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Uyg8.Uyg8"></activity>
     </application>
 
 </manifest>

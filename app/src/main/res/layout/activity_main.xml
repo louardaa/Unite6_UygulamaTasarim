@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="uyg8Goster"
     tools:context=".MainActivity">
 
     <Button
@@ -12,8 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
         android:layout_marginTop="78dp"
+        android:layout_marginBottom="174dp"
         android:onClick="uyg1Goster"
         android:text="Uygulama 1"
+        app:layout_constraintBottom_toTopOf="@+id/uyg8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,5 +40,19 @@
         android:onClick="uyg3Goster"
         android:text="Uygulama 3"
         app:layout_constraintStart_toStartOf="@+id/uyg1"
+        app:layout_constraintTop_toBottomOf="@+id/uyg1" />
+
+    <Button
+        android:id="@+id/uyg8"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="386dp"
+        android:onClick="uyg8Goster"
+        android:text="Uyg8
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/uyg3"
         app:layout_constraintTop_toBottomOf="@+id/uyg1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
