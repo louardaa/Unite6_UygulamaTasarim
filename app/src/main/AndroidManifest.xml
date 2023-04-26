@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.unite6_uygulamatasarim1">
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -24,6 +24,8 @@
         </activity>
 
         <activity android:name=".Uyg8.Uyg8"></activity>
+        <activity android:name=".Uyg10.Uyg10"></activity>
+
     </application>
 
 </manifest>

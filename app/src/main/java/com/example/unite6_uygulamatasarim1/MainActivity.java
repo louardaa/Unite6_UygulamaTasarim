@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.unite6_uygulamatasarim1.Uyg1.Uyg1;
+import com.example.unite6_uygulamatasarim1.Uyg10.Uyg10;
 import com.example.unite6_uygulamatasarim1.Uyg2.Uyg2;
 import com.example.unite6_uygulamatasarim1.Uyg3.Uyg3;
 import com.example.unite6_uygulamatasarim1.Uyg8.BirinciFragment;
@@ -36,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void uyg8Goster(View view) {
         Intent i = new Intent(MainActivity.this, Uyg8.class);
+        startActivity(i);
+    }
+    public void uyg10Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg10.class);
         startActivity(i);
     }
 
